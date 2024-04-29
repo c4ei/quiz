@@ -38,6 +38,8 @@
 	"settings_command_current_english": "Ora il bot parlerà in: 🇬🇧 Inglese",
 	"settings_command_current_korean": "Ora il bot parlerà in: 🇰🇷 한국어",
 	"settings_command_opensource": "👨‍💻 OpenSource",
+	"settings_command_c4eihome": "🏠 homepage",
+	"settings_command_aahhome": "📈 tradeAAH",
 	"settings_command_email": "📨 Aiuto",
 	"settings_command_credits": "🌟 Riconoscimenti",
 	"settings_command_ptkdev": "👨‍💻 Patryk Rzucidlo (@PTKDev)",

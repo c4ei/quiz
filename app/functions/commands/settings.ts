@@ -30,6 +30,9 @@ const settings = async (): Promise<void> => {
 
 		buttons.text(translate(lang.language, "settings_command_setlanguage"), "settings_languages");
 		buttons.row();
+		buttons.url(translate(lang.language, "settings_command_c4eihome"), "https://c4ei.net/home");
+		buttons.row();
+		buttons.url(translate(lang.language, "settings_command_aahhome"), "https://c4ex.net");
 		// buttons.url(
 		// 	translate(lang.language, "settings_command_opensource"),
 		// 	"https://github.com/ptkdev/quizquickanswer-telegram-game-bot",
