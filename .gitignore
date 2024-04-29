@@ -5,6 +5,8 @@
 # Latest version: https://github.com/ptkdev/dotfiles                                 #
 ######################################################################################
 
+*.txt
+*.yaml
 # Compiled source #
 ###################
 *.com

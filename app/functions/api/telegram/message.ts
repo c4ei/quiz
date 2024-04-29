@@ -123,7 +123,9 @@ const getLanguage = async (ctx: Context): Promise<SettingsInterface> => {
 
 	if (
 		lang.language === "auto" &&
-		(ctx?.update?.message?.from?.language_code === "en" || ctx?.update?.message?.from?.language_code === "it")
+		(ctx?.update?.message?.from?.language_code === "en" ||
+			ctx?.update?.message?.from?.language_code === "it" ||
+			ctx?.update?.message?.from?.language_code === "ko")
 	) {
 		lang.language = ctx?.update?.message?.from?.language_code;
 	}

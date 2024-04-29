@@ -11,11 +11,13 @@
  */
 import en from "@translations/en.json";
 import it from "@translations/it.json";
+import ko from "@translations/ko.json";
 
 const translations = {
 	en,
 	it,
+	ko,
 };
 
-export { it, en };
+export { it, en, ko };
 export default translations;
