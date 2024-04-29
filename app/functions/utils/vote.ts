@@ -72,15 +72,15 @@ const vote = async (ctx, type, user_id): Promise<void> => {
 							? {
 									...user_questions.voters.users,
 									upvotes: [...user_questions.voters.users.upvotes, voter_user_id],
-							  }
+								}
 							: {
 									...user_questions.voters.users,
 									downvotes: [...user_questions.voters.users.downvotes, voter_user_id],
-							  }
+								}
 						: {
 								upvotes: is_upvote ? [voter_user_id] : [],
 								downvotes: is_upvote ? [] : [voter_user_id],
-						  },
+							},
 				};
 				await db.questions.update({ group_id, user_id }, user_questions);
 

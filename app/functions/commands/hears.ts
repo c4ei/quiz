@@ -440,9 +440,9 @@ const hears = async (): Promise<void> => {
 							tip: master.description,
 							score: user_questions
 								? (user_score?.[`score_${new Date().getFullYear()}`] || 0) +
-								  10 +
-								  user_questions[`upvotes_${new Date().getFullYear()}`] -
-								  user_questions[`downvotes_${new Date().getFullYear()}`]
+									10 +
+									user_questions[`upvotes_${new Date().getFullYear()}`] -
+									user_questions[`downvotes_${new Date().getFullYear()}`]
 								: (user_score?.[`score_${new Date().getFullYear()}`] || 0) + 10,
 						}),
 						{ reply_markup: buttons, parse_mode: "HTML" },
